@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Doces & Encantos — Patisserie</title>
+  <link rel="shortcut icon" href="img/logo.png.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <div class="logo">
+        <img src="img/logo.png.jpeg" alt="Logo Doces & Encanto">
+        <div>
+          <div class="brand">Doces & Encantos</div>
+          <div style="font-size:12px;color:#7b6666"> Sua Doceria Artesanal</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Cardápio</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <h1 class="hero-title">Patisserie</h1>
+        <div class="eyebrow">Delight in every bite</div>
+        <p class="hero-sub">Doces e bolos artesanais preparados com excelência e dedicação. Transforme festas, aniversários e eventos em momentos inesquecíveis.</p>
+        <a class="cta" href="#menu">FAÇA SEU PEDIDO</a>
+      </div>
+    </section>
+
+    <section class="section" id="cakes">
+      <h2>Signature</h2>
+      <div class="grid">
+        <a href="#menu" class="card">
+          <img src="img/Pastel.jpeg" alt="Pastéis">
+          <h3>Pasteis Gourmet</h3>
+          <p> Pastéis personalizados sob encomenda</p>
+        </a>
+        <a href="#menu" class="card">
+          <img src="img/Bolo.jpeg" alt="Bolos">
+          <h3>Bolos de Pote</h3>
+          <p> Bolos caseiros, várias massas e sabores</p>
+        </a>
+        <a href="#menu" class="card">
+          <img src="img/palha.jpeg" alt="Palha Italiana">
+          <h3>Palha Italiana</h3>
+          <p> Palha Italiana sob encomenda</p>
+        </a>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu">
+      <h2 style="font-size:28px;text-align:center;margin-bottom:12px">Cardápio — Doces & Encantos</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <h4>Doces Tradicionais</h4>
+          <div class="menu-item" data-name="Brigadeiro" data-price="2.50"><span class="name">Brigadeiro</span><span class="price">R$ 2,50</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Beijinho" data-price="2.50"><span class="name">Beijinho</span><span class="price">R$ 2,50</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Ninho" data-price="2.50"><span class="name">Ninho</span><span class="price">R$ 2,50</span><button class="add">+ Carrinho</button></div>
+
+          <h4>Cookies Artesanais</h4>
+          <div class="menu-item" data-name="Cookie Tradicional" data-price="8.00"><span class="name">Tradicional</span><span class="price">R$ 8,00</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Cookie c/ Chocolate" data-price="10.50"><span class="name">Tradicional c/ Chocolate</span><span class="price">R$ 10,50</span><button class="add">+ Carrinho</button></div>
+
+          <h4>Brownie</h4>
+          <div class="menu-item" data-name="Brownie Tradicional" data-price="7.80"><span class="name">Tradicional</span><span class="price">R$ 7,80</span><button class="add">+ Carrinho</button></div>
+
+          <h4>Palha Italiana</h4>
+          <div class="menu-item" data-name="Palha Italiana" data-price="6.00"><span class="name">Tradicional</span><span class="price">R$ 6,00</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Palha Italiana cm Oreo" data-price="8.50"><span class="name">Tradicional cm Oreo</span><span class="price">R$ 8,50</span><button class="add">+ Carrinho</button></div>
+          <h4>Salgados</h4>
+          <div class="menu-item" data-name="Pão de Queijo (6 uni)" data-price="3.00"><span class="name">Pão de Queijo (6 uni)</span><span class="price">R$ 3,00</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Pão de Queijo (12 uni)" data-price="5.50"><span class="name">Pão de Queijo (12 uni)</span><span class="price">R$ 5,50</span><button class="add">+ Carrinho</button></div>
+        </div>
+
+        <div class="menu-card">
+          <h2>Bebidas</h2>
+          <h3>Café</h3>
+          <div class="menu-item" data-name="Café M - 150ml" data-price="3.80"><span class="name">M - 150ml</span><span class="price">R$ 3,80</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Café G - 350ml" data-price="5.50"><span class="name">G - 350ml</span><span class="price">R$ 5,50</span><button class="add">+ Carrinho</button></div>
+
+          <h3>Sucos</h3>
+          <div class="menu-item" data-name="Suco Laranja Natural" data-price="5.00"><span class="name">Laranja Natural</span><span class="price">R$ 5,00</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Suco de Uva" data-price="5.00"><span class="name">Uva</span><span class="price">R$ 5,00</span><button class="add">+ Carrinho</button></div>
+
+          <h3>Água</h3>
+          <div class="menu-item" data-name="Água Natural" data-price="3.00"><span class="name">Natural</span><span class="price">R$ 3,00</span><button class="add">+ Carrinho</button></div>
+          <div class="menu-item" data-name="Água com Gás" data-price="5.00"><span class="name">Com gás</span><span class="price">R$ 5,00</span><button class="add">+ Carrinho</button></div>
+        </div>
+      </div>
+
+      <div style="margin-top:18px; display:flex; gap:12px; flex-wrap:wrap">
+        <div style="flex:1; min-width:260px" class="menu-card">
+ 
+            <h2>Pastéis Gourmet</h2>
+            <div class="menu-card">
+              <h4>Massas</h4>
+              <div class="menu-item"><span class="name">· Massa de Chocolate</span></div>
+              <div class="menu-item"><span class="name">· Massa Branca</span></div>
+              <h4>Recheios</h4>
+              <div class="menu-item"><span class="name">· Chocolate Branco</span></div>
+              <div class="menu-item"><span class="name">· Creme de Avelã</span></div>
+              <div class="menu-item" data-name="Pastel Gourmet" data-price="8.50">
+                <span class="name" style="font-weight:700">Preço Fixo</span>
+                <span class="price">R$ 8,50</span>
+                <button class="add small">+ Carrinho</button>
+              </div>
+            </div>
+        
+            <h2>Bolos de Pote</h2>
+            <div class="menu-card">
+              <h4>Massas</h4>
+              <div class="menu-item"><span class="name">· Massa Branca</span></div>
+              <div class="menu-item"><span class="name">· Massa de Chocolate</span></div>
+              <h4>Recheios</h4>
+              <div class="menu-item"><span class="name">· Cenoura com Chocolate</span></div>
+              <div class="menu-item"><span class="name">· Brigadeiro</span></div>
+              <div class="menu-item"><span class="name">· Leite Ninho</span></div>
+              <div class="menu-item" data-name="Bolo de Pote" data-price="12.50">
+                <span class="name" style="font-weight:700">Preço Fixo</span>
+                <span class="price">R$ 12,50</span>
+                <button class="add small">+ Carrinho</button>
+              </div>
+            </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contato</h2>
+      <div class="contact-links">
+        <a href="https://wa.me/5511958779345" target="_blank" class="whatsapp">
+          <i class="fab fa-whatsapp"></i> (11) 95877-9345
+        </a>
+        <a href="https://www.instagram.com/doceencantoos5" target="_blank" class="instagram">
+          <i class="fab fa-instagram"></i> @Doces&Encantos
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>
+        <p>© 3ºA - Thomas - Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cart-fab" id="cartFab" aria-label="Abrir carrinho">
+    <div style="display:flex;align-items:center;gap:10px">
+      <i class="fa fa-shopping-bag"></i>
+      <div style="text-align:left">
+        <div style="font-size:12px">Ver carrinho</div>
+        <div style="font-weight:700">Doces & Encantos</div>
+      </div>
+    </div>
+    <div style="margin-left:10px" class="count" id="cartCount">0</div>
+  </div>
+
+  <aside class="cart-sidebar" id="cartSidebar" aria-hidden="true">
+    <div class="cart-header">
+      <div>
+        <strong>Carrinho</strong>
+        <div class="muted" id="cartStore">Doces & Encantos</div>
+      </div>
+      <button id="closeCart" class="btn-close" aria-label="Fechar">✕</button>
+    </div>
+    <div class="cart-body" id="cartBody"></div>
+    <div class="cart-footer">
+      <div style="display:flex;justify-content:space-between;margin-bottom:8px"><div class="muted">Subtotal</div><div id="subtotal">R$ 0,00</div></div>
+      <div style="display:flex;justify-content:space-between;margin-bottom:8px"><div class="muted">Entrega</div><div id="delivery">R$ 5,00</div></div>
+      <div style="display:flex;justify-content:space-between;font-weight:800;margin-bottom:12px"><div>Total</div><div id="total">R$ 0,00</div></div>
+      <div style="display:flex;gap:8px">
+        <button class="btn-primary" id="checkout">Finalizar pedido</button>
+        <button style="background:#f2f2f2;border:0;padding:10px 14px;border-radius:10px;cursor:pointer" id="clearCart">Limpar</button>
+      </div>
+      <div class="muted" style="margin-top:10px;font-size:13px">Os pedidos aqui são simulados. Implemente um endpoint no servidor para processar pagamentos/entregas.</div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
